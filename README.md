@@ -4,10 +4,8 @@
 
 ## Imagens
 
-<p align="center">
-  <img src="images/screen1.png" width="350px" title="hover text">
-  <br>
-  <img src="images/screen.png" width="350" alt="preview">
+<p>
+  <img src="images/screen1.png" width="300px" title="hover text"><p>  <p><img src="images/screen.png" width="300" alt="preview">
 </p>
 
 ## Resumo
