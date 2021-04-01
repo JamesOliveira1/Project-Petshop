@@ -1,0 +1,377 @@
+@font-face {
+    font-family:CHICKEN Pie;
+	src: url(./fonts/CHICKEN\ Pie.ttf)
+}
+
+*{
+    font-family: 'bahnschrift';
+    
+}
+body {
+    margin:0;
+    padding:0
+    
+}
+header {
+    display:flex;
+    justify-content:center;
+    height:120px;
+}
+.container {
+    display:flex;
+    width: 900px;
+    padding: 10px;
+    justify-content:space-between;
+}
+.logo {
+    display:flex;
+    align-items: center;
+}
+.nav{
+    display:flex;
+    align-items: center;
+}
+nav ul, nav li{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+nav ul{
+    display:flex;
+}
+nav a{
+    display:block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-family: 'bahnschrift';
+    font-weight: bold;
+    color:rgb(78, 78, 78)
+}
+nav.active a, nav a:hover{
+    background-color:rgb(245, 138, 222);
+    color:white;
+}
+.banner {
+    display:flex;
+    background-image:url("images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    justify-content: center;
+}
+.column {
+    flex-direction: column;
+}
+.textobanner {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    color:darkviolet;
+    justify-content:center;
+    
+    align-items:center;
+}
+
+
+.textobanner h1{
+    font-size: 70px;
+    font-family:CHICKEN Pie;
+    text-shadow: 5px 5px 5px white;
+    max-width:400px;
+    margin: 0px;
+    padding:0px;
+}
+.textobanner h2{
+    font-size: 90px;
+    font-family:CHICKEN Pie;
+    text-shadow: 5px 5px 5px white;
+    max-width:400px;
+    margin: 0px;
+    padding:0px;
+}
+
+.textobanner h1, h2{
+    line-height: 0.9em;
+}
+.textobanner p{
+    font-size: 20px;
+    color:darkviolet;
+    text-shadow: 2px 2px 2px white;
+    max-width:400px;
+    margin: 0px;
+    padding:0px;
+    word-spacing: 7px;
+    text-transform:lowercase;
+    text-align: center;
+    font-family:CHICKEN Pie;
+    margin-top:30px;
+    
+}
+.menubanner{
+    background-color: darkviolet;
+    height: 210px;
+    display:flex;
+    justify-content:center;
+    color:white;
+    
+}
+.menubanner p{
+    font-size:14px;
+    font-style: italic;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.menubanner1{
+    flex:1;
+    padding-left: 20px;
+    padding-right:20px;
+    background-color:darkmagenta
+}
+.menubanner2{
+    flex:1;
+    padding-left: 20px;
+    padding-right:20px;
+    background-color:darkviolet
+}
+.menubanner3{
+    flex:1;
+    padding-left: 20px;
+    padding-right:20px;
+    background-color:rgb(245, 138, 222)
+}
+.menubanner a{
+    margin-top: 30px;
+    text-decoration:none;
+    color:white;
+    font-size: 12px;
+    border: 1px solid white;
+    padding:5px
+}
+
+#geral {
+    display:flex;
+    color:rgb(78, 78, 78);
+    justify-content:center;
+}
+
+#geral section{
+    flex:2;
+}
+#geral aside{
+    flex:1;
+}
+
+h3{
+    color:rgb(78, 78, 78);
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    margin-bottom: 20px;
+}
+h3:before {
+    content: "";
+    margin-top:5px;
+    width: 25%;
+    height: 3px;
+    background:darkviolet;
+    position: absolute;
+    top: 100%;
+  }
+
+.serviços {
+    display:flex;
+    color:rgb(78, 78, 78);
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-top:30px;
+    margin-right: 20px;
+}
+
+aside ul li {
+    
+    line-height: 2.5em;
+}
+
+aside img{
+  padding-left: min(50px, 50%);
+
+}
+
+.serviços1{
+    flex: 1;
+    
+    align-items: center;
+    min-width:280px;
+    max-width:280px;
+    min-height: fit-content;
+}
+.serviços2{
+    flex:1;
+    min-width:280px;
+    max-width:280px;
+    min-height: fit-content;
+}
+.serviços3{
+    flex: 1;
+    min-width:280px;
+    max-width:280px;
+    min-height: fit-content;
+}
+
+.serviços img{
+    max-width:250px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+    
+}
+
+
+.serviços h1 {
+    margin: 0px;
+    padding: 0px;
+    text-transform:uppercase;
+    margin-top: 10px;
+    
+}
+.serviços p {
+    font-size:14px;
+    margin: 0px;
+    text-align: justify;
+  
+    padding: 0px;
+    margin-right:40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+footer {
+    color:white;
+    background-color: rgb(245, 138, 222);
+    display: flex;
+    justify-content: center;
+}
+.footer1 {
+    flex: 1;
+    padding-right: 80px;
+}
+.footer2 {
+    flex: 1;
+}
+.footer3 {
+    flex: 1;
+}
+.final {
+    
+    color:white;
+    display: flex;
+        font-size: 12px;
+    justify-content: center;
+        padding-top: 150px;
+    background-color:#f58ade; }
+
+.center{
+flex:1;
+max-width: 900px;
+text-align: left;
+border-top: 2px solid white;
+padding:10px;
+    }
+
+.menumobile {
+    display:none;
+    width:45px;
+    height:45px;
+}
+
+.mm_line {
+    height:3px;
+    background-color:#f58ade
+
+}
+
+.footer3 img {
+    width:auto;
+    height:auto;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* RESPONSIVIDADE DO SITE */
+
+
+@media (max-width:600px) {
+
+    .textobanner h1 {
+        font-size:50px;
+    }
+    .textobanner p {
+        font-size:15px;
+        padding-bottom: 10px;
+    }
+
+    .banner {
+        height: 700px;
+    }
+
+    .menubanner{
+        height:auto;
+        flex-direction: column;
+        
+           }
+           .menubanner1{
+               padding-bottom: 15px;
+           }
+           .menubanner2{
+            padding-bottom: 15px;;
+        }
+        .menubanner3{
+            padding-bottom: 15px;;
+        }
+        .container {
+            flex-direction: column;
+            padding: 20px;
+            
+        }
+        .final{
+            padding-top: 0px;
+        
+        }
+        footer {
+            padding-bottom: 50px;
+        }
+        header {
+            display:flex;
+            height:auto;
+            justify-content:space-between;
+            padding-bottom: 0px;
+            margin-bottom:0px;
+        }
+        header .container{
+            flex-direction: row;
+        }
+        .nav ul{
+            flex-direction: column;
+            display: none;
+            position:absolute;
+            left:50%;
+            width:50%;
+            background-color:#f58ade;
+        }
+        .menumobile {
+            display: flex;
+            flex-direction: column;
+            padding-right: 20px;
+            justify-content:space-around;
+    
+        }
+
+        .serviços {
+            justify-content:center;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+      
+    }
