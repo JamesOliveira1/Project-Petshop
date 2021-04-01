@@ -5,7 +5,7 @@
 ## Imagens
 
 <p>
-  <img src="images/screen1.png" width="6000px" title="hover text">
+  <img src="images/screen1.png" width="600" title="hover text">
   <p>    </p>
   <img src="images/screen.png" width="300" alt="preview">
 </p>
