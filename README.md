@@ -2,13 +2,13 @@
 
 > Template básico criado para testar conhecimentos de html e css, aplicado para um petshop amigo.
 
-[![Downloads Stats][npm-downloads]][npm-url]
-
 ## Imagens
 
-![](screen1.png)
-
-![](screen.png)
+<p align="center">
+  <img src="images/screen1.png" width="350px" title="hover text">
+  <br>
+  <img src="images/screen.png" width="350" alt="preview">
+</p>
 
 ## Resumo
 
