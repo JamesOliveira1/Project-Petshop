@@ -1,4 +1,4 @@
-# Site para um petshop local
+# Site para um petshop local chamado "Banho de Mimo"
 
 > Template básico criado para testar conhecimentos de html e css, aplicado para um petshop amigo.
 
