@@ -12,7 +12,7 @@
 
 ## Resumo
 
-O objetivo era criar algo simples, apenas utilizar html e css, flexgrid, criando um template responsivo e assim desenvolvendo as habilidade adquiridas sobre essas tecnologias. 
+O objetivo era criar algo simples, apenas utilizar html e css, flexgrid, criando um template responsivo e assim desenvolvendo as habilidades adquiridas sobre essas tecnologias. 
 
 ## Versões - Histórico
 
